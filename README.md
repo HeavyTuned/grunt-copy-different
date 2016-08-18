@@ -29,4 +29,5 @@ grunt-copy-different: {
 ```
 
 ### function
-	The Tasks searches for every file in the files array and checks if it finds the same filename in the compareWith directory. Then it hashes the file content of both files (md5) and copies every different file into the destination dir.s
+
+The Tasks searches for every file in the files array and checks if it finds the same filename in the compareWith directory. Then it hashes the file content of both files (md5) and copies every different file into the destination dir.s
