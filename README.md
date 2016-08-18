@@ -16,14 +16,17 @@ A grunt task for compaaring file content and copying diff files into a target di
 ### Config
 ```javascript
 
-plentymarkets-dropbox-uploader: {
+grunt-copy-different: {
 	default: {
-		layoutName: "yourPlentymarketsLayoutName",
-		layoutLang: "en",
-		domain: "yourPlentymarketsBackendDomain",
-		user: "anUsernameWithDropboxImportRights",
-		password: "usernamesPassword"
+		files: [
+			{src:"html/build/*"}
+		],
+		compareWith: "html/buildTemp/",
+		destination: "html/buildIncrement/"
 	}
 }
 
 ```
+
+### function
+	The Tasks searches for every file in the files array and checks if it finds the same filename in the compareWith directory. Then it hashes the file content of both files (md5) and copies every different file into the destination dir.s
