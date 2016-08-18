@@ -1,0 +1,33 @@
+{
+  "name": "grunt-copy-different",
+  "version": "0.0.1",
+  "description": "A grunt task for compaaring file content and copying diff files into a target directory",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com:HeavyTuned/grunt-copy-different.git"
+  },
+  "author": {
+    "name": "Karol Kutrowski",
+    "email": "it@heavy-tuned.de",
+    "url": "https://www.heavy-tuned.de/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HeavyTuned/grunt-copy-different/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0"
+  },
+  "readme": "# grunt-plentymarkets-dropbox-uploader\n[![license][license-image]][license-url]\n[![node][node-image]][node-url]\n\n[node-image]:https://img.shields.io/badge/node.js-%3E=_0.10-green.svg?style=flat-square\n[node-url]:https://nodejs.org/download/\n\n[license-image]:https://img.shields.io/github/license/JCMais/node-libcurl.svg?style=flat-square\n[license-url]:https://raw.githubusercontent.com/JCMais/node-libcurl/develop/LICENSE-MIT\nA Grunt task for importing dropbox layouts into plentymarkets\n\n## Install\n```npm install grunt-plentymarkets-dropbox-uploader --save```\n\n\n### Config\n```javascript\n\nplentymarkets-dropbox-uploader: {\n\tdefault: {\n\t\tlayoutName: \"yourPlentymarketsLayoutName\",\n\t\tlayoutLang: \"en\",\n\t\tdomain: \"yourPlentymarketsBackendDomain\",\n\t\tuser: \"anUsernameWithDropboxImportRights\",\n\t\tpassword: \"usernamesPassword\"\n\t}\n}\n\n```\n",
+  "readmeFilename": "README.md",
+  "gitHead": "8f35018126396884d44aecdea84796609be374e3",
+  "_id": "grunt-plentymarkets-dropbox-uploader@0.0.4",
+  "_shasum": "fc0099a77cae97bfd9210deac70981018f6a5dd5",
+  "_from": "grunt-plentymarkets-dropbox-uploader@0.0.4"
+}
