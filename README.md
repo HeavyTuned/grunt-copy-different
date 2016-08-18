@@ -1,4 +1,4 @@
-# grunt-plentymarkets-dropbox-uploader
+# grunt-copy-different
 [![license][license-image]][license-url]
 [![node][node-image]][node-url]
 
@@ -7,10 +7,10 @@
 
 [license-image]:https://img.shields.io/github/license/JCMais/node-libcurl.svg?style=flat-square
 [license-url]:https://raw.githubusercontent.com/JCMais/node-libcurl/develop/LICENSE-MIT
-A Grunt task for importing dropbox layouts into plentymarkets
+A grunt task for compaaring file content and copying diff files into a target directory
 
 ## Install
-```npm install grunt-plentymarkets-dropbox-uploader --save```
+```npm install grunt-copy-different --save```
 
 
 ### Config
