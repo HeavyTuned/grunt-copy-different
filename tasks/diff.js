@@ -16,13 +16,13 @@ module.exports = function gruntTask(grunt) {
 			var filesToCopy = {};		
 			files.forEach(function(singleFile){
 				var fileName = path.basename(singleFile);
-				
-				var file1 = grunt.file.read(singleFile);
-				var file2 = grunt.file.read(options.compareWith+fileName);
 
 				oldFiles[fileName]  = singleFile;
 				if(grunt.file.exists(options.compareWith+fileName)){
-
+				
+					var file1 = grunt.file.read(singleFile);
+					var file2 = grunt.file.read(options.compareWith+fileName);
+				
 					var hash1 = crypto.createHash("md5").update(file1).digest('hex');
 					var hash2 = crypto.createHash("md5").update(file2).digest('hex');
 					if(hash1 !== hash2){
