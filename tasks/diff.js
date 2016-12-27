@@ -34,7 +34,7 @@ module.exports = function gruntTask(grunt) {
 			for(var oldFileKey in possibleNewFiles){
 				var oldFile = possibleNewFiles[oldFileKey];
 				if(oldFiles[oldFile] == undefined){
-					filesToCopy[oldFile] = options.compareWith+oldFile;
+					filesToCopy[oldFile] = grunt.file.read(options.compareWith+oldFile);
 				}
 			}
 
