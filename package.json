@@ -1,6 +1,6 @@
 {
   "name": "grunt-copy-different",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A grunt task for compaaring file content and copying diff files into a target directory",
   "main": "Gruntfile.js",
   "scripts": {
